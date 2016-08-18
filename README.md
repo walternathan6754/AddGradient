@@ -10,7 +10,7 @@ Matlab 2015b, Mac OS X 10.11
 
 ### src
 ##### Files
-* addGradient.m
+* **addGradient.m**
     function to add a gradient image to a figure background
     ##### Inputs
     * 'currentFigure' -- handle to figure to add gradient
@@ -20,18 +20,20 @@ Matlab 2015b, Mac OS X 10.11
     * 'alpha'         -- float 0 to 1 indicating the alpha channel of the gradient
     * 'inverse'       -- boolean indicating if gradient is up-down or down-up orientated
     * 'auto'          -- boolean indicating if the figure has 'auto' scaled axis
-* resizeGradient.m
-    function to resize an already added gradient if it does not fit current axis
-* colors.mat
+* **resizeGradient.m**
+    function to resize an already added gradient if it does not fit current axis. This can occur when a figure size is changed post gradient addition
+* **colors.mat**
     Matlab matrix with various color gradients included
 
 ### Example
-To add a colored gradient to the following image
+The command to add a colored gradient to the following image
 
 <img src="./images/no_gradient.png" width="200">
 
-`>> $ addGradient(gcf, 'rangeLow', 0, 'rangeHigh',100,'colormap', 'blues', 'alpha', .1, 'inverse', 1);`
+`>> addGradient(gcf, 'rangeLow', 0, 'rangeHigh',100,'colormap', 'blues', 'alpha', .1, 'inverse', 1);`
 
-This command adds a red tinted gradient to the figure as shown below
+This command adds a red tinted gradient to the figure, as shown below
 
 <img src="./images/with_gradient.png" width="200">
+
+This function is commonly used in our group for finalizing images for publication
