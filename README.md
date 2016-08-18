@@ -32,12 +32,12 @@ Matlab 2015b, Mac OS X 10.11
 ### Example
 The command to add a colored gradient to the following image
 
-<img src="./images/no_gradient.png" width="200">
+<img src="./images/no_gradient.png" width="300">
 
 `>> addGradient(gcf, 'rangeLow', 0, 'rangeHigh',100,'colormap', 'blues', 'alpha', .1, 'inverse', 1);`
 
 This command adds a red tinted gradient to the figure, as shown below
 
-<img src="./images/with_gradient.png" width="200">
+<img src="./images/with_gradient.png" width="300">
 
 This function is commonly used in our group for finalizing images for publication
