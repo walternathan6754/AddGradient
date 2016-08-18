@@ -22,8 +22,10 @@ Matlab 2015b, Mac OS X 10.11
     * 'alpha'         -- float 0 to 1 indicating the alpha channel of the gradient
     * 'inverse'       -- boolean indicating if gradient is up-down or down-up orientated
     * 'auto'          -- boolean indicating if the figure has 'auto' scaled axis
+    
 * **resizeGradient.m**
     function to resize an already added gradient if it does not fit current axis. This can occur when a figure size is changed post gradient addition
+
 * **colors.mat**
     Matlab matrix with various color gradients included
 
