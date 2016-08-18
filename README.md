@@ -27,7 +27,7 @@ Matlab 2015b, Mac OS X 10.11
 
 ### Example
 To add a colored gradient to the following image
-![no_gradient](./images/no_gradient.pdf)
+![no_gradient](./images/no_gradient.png)
 
 `>> $ addGradient(gcf, 'rangeLow', 0, 'rangeHigh',100,'colormap', 'reds', 'alpha', .1, 'inverse', 1);`
 
