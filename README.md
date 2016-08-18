@@ -13,6 +13,7 @@ Matlab 2015b, Mac OS X 10.11
 ##### Files
 * **addGradient.m**
     function to add a gradient image to a figure background
+
     ##### Inputs
     * 'currentFigure' -- handle to figure to add gradient
     * 'rangeLow'      -- integer 0 to 256 indicating the lighter color
