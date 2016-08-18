@@ -1,5 +1,6 @@
 # AddGradient
-A Matlab function to add a gradient image to a figure background.  This function was motivated because our research group commonly creates figures with colored backgrounds in powerpoint post generation of the figure in Matlab.  This function helps make the figures more reproducible for publication.
+A Matlab function to add a gradient image to a figure background, the image is fit to the current axis handle of the provided figure handle. This function was motivated because our research group commonly creates figures with colored backgrounds in powerpoint post generation of the figure in Matlab.  This function helps make the figures more reproducible for publication.
+
 Has been tested on linear and log scale images, double axis images, subplots, and most other simply matlab figures.
 
 ### Developers
